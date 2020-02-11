@@ -3,4 +3,5 @@ This example is using CSV export of netflow stream of Graylog as source and crea
 
 requires modules:
 pandas
-matplotlib 
+numpy
+matplotlib (if graphing is required)
