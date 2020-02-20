@@ -38,17 +38,9 @@ print(df.columns)
 print("Data Frame Info:")
 print(df.info())
 
-
-#Grouping - slow
-#columns_to_show = ['Размер начислений','Объем трафика в МБ']
-#df.groupby(['Описание услуги']).sum()[columns_to_show]
-
 # Pivot is faster and supports aggregation
 
 #df.pivot_table(['nf_pkts','nf_bytes'],index=['nf_direction','nf_proto','nf_src_port','nf_dst_port','nf_dst_address','nf_src_address'],aggfunc='sum', fill_value = 0, margins=False)
-
-#df.pivot_table(['Размер начислений','Объем трафика в МБ'],index=['Описание услуги'],aggfunc='sum', fill_value = 0, margins=True,margins_name= 'Grand Total')
-
 
 #display gateways
 #pivot_gw=df.pivot_table(['nf_pkts'],index=['nf_ipv4_next_hop'],aggfunc='sum', fill_value = 0, margins=False)
