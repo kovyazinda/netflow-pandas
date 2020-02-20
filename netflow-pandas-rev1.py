@@ -6,7 +6,7 @@
 import pandas as pd
 import numpy as np
 
-# import matloit for visualisazion
+# import matзlotlib for visualisazion
 import matplotlib.pyplot as plt
 
 # import common modules
