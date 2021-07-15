@@ -5,6 +5,4 @@ requires modules:
 pandas
 numpy
 matplotlib (if graphing is required)
-#
-If you think that it is worth to support this project: 
-BTC 34kWXwjDn1uXQRfgeehaskD1hXZu713ZWQ
+
